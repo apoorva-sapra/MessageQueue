@@ -1,0 +1,10 @@
+DATABASE_HOST = "localhost"
+DATABASE_USER = "root"
+DATABASE_PASSWORD = "apoorva"
+DATABASE = "apoorva"
+AUTH = "mysql_native_password"
+TOPICS = ['sports','books','news']
+ROLES = ['Publisher','Subscriber']
+TOPIC = 'topic'
+ROLE ='role'
+CONNECTION_SUCCESSFULL= "Connected successfully!"

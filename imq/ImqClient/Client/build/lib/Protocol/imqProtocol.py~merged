@@ -1,0 +1,13 @@
+from dataclasses import dataclass
+from ImqClient.Client.Protocol.ProtocolConstants import *
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+@dataclass
+class ImqProtocol:
+    data: str
+    sourceUrl: str
+    desitantionUrl: str
+    dataformat: str = FORMAT
+    version: str = VERSION
